@@ -9,6 +9,7 @@ export class AppComponent {
   oddNumbers: number[] = [];
   evenNumbers: number[] = [];
 
+  
   onIntervalFired(firedNumber: number){ //firedNumber will get data from the $event event emitter data
     if(firedNumber % 2  === 0){
       this.evenNumbers.push(firedNumber);
